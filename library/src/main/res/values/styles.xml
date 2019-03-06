@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyleFloatRatingBar">
+        <attr name="FloatRatingBarStarForegroundDrawable" format="reference"></attr>
+        <attr name="FloatRatingBarStarBackgroundDrawable" format="reference"></attr>
+        <attr name="FloatRatingBarStarDistance" format="dimension"></attr>
+        <attr name="FloatRatingBarStarWidth" format="dimension"></attr>
+        <attr name="FloatRatingBarStarHeight" format="dimension"></attr>
+        <attr name="FloatRatingBarStarRate" format="float"></attr>
+    </declare-styleable>
+</resources>

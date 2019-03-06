@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <com.devnn.floatraingbar.library.FloatRatingBar
+        android:id="@+id/rating_bar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:FloatRatingBarStarBackgroundDrawable="@drawable/ic_star_gray"
+        app:FloatRatingBarStarDistance="10dp"
+        app:FloatRatingBarStarForegroundDrawable="@drawable/drawable_star_clip"
+        app:FloatRatingBarStarHeight="50dp"
+        app:FloatRatingBarStarRate="0"
+        app:FloatRatingBarStarWidth="50dp"></com.devnn.floatraingbar.library.FloatRatingBar>
+
+    <com.devnn.floatraingbar.library.FloatRatingBar
+        android:id="@+id/rating_bar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:FloatRatingBarStarBackgroundDrawable="@drawable/ic_star_gray"
+        app:FloatRatingBarStarDistance="10dp"
+        app:FloatRatingBarStarForegroundDrawable="@drawable/drawable_star_clip"
+        app:FloatRatingBarStarHeight="50dp"
+        app:FloatRatingBarStarRate="2"
+        app:FloatRatingBarStarWidth="50dp"></com.devnn.floatraingbar.library.FloatRatingBar>
+
+    <com.devnn.floatraingbar.library.FloatRatingBar
+        android:id="@+id/rating_bar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:FloatRatingBarStarBackgroundDrawable="@drawable/ic_star_gray"
+        app:FloatRatingBarStarDistance="10dp"
+        app:FloatRatingBarStarForegroundDrawable="@drawable/drawable_star_clip"
+        app:FloatRatingBarStarHeight="50dp"
+        app:FloatRatingBarStarRate="3.3"
+        app:FloatRatingBarStarWidth="50dp"></com.devnn.floatraingbar.library.FloatRatingBar>
+
+    <com.devnn.floatraingbar.library.FloatRatingBar
+        android:id="@+id/rating_bar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:FloatRatingBarStarBackgroundDrawable="@drawable/ic_star_gray"
+        app:FloatRatingBarStarDistance="10dp"
+        app:FloatRatingBarStarForegroundDrawable="@drawable/drawable_star_clip"
+        app:FloatRatingBarStarHeight="50dp"
+        app:FloatRatingBarStarRate="4.2"
+        app:FloatRatingBarStarWidth="50dp"></com.devnn.floatraingbar.library.FloatRatingBar>
+
+    <com.devnn.floatraingbar.library.FloatRatingBar
+        android:id="@+id/rating_bar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:FloatRatingBarStarBackgroundDrawable="@drawable/ic_star_gray"
+        app:FloatRatingBarStarDistance="10dp"
+        app:FloatRatingBarStarForegroundDrawable="@drawable/drawable_star_clip"
+        app:FloatRatingBarStarHeight="50dp"
+        app:FloatRatingBarStarRate="4.7"
+        app:FloatRatingBarStarWidth="50dp"></com.devnn.floatraingbar.library.FloatRatingBar>
+</LinearLayout>
