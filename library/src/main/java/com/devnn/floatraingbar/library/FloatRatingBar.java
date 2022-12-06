@@ -14,13 +14,16 @@ import android.widget.RelativeLayout;
  **/
 public class FloatRatingBar extends LinearLayout {
 
-    private int starWidth;//星星高度
+    private int starWidth;//星星宽度
 
-    private int startHeight;//星星宽度
+    private int startHeight;//星星高度
 
     private int starDistance;//星星之间的距离
-    private int starForegroundRes;//选中时的图片资源
-    private int starBackgroundRes;//未选中时的图片资源
+    
+    private int starForegroundRes;//or full-rate Image Res 选中时的图片资源
+    
+    private int starBackgroundRes;//or empty-rate Image Res  未选中时的图片资源
+    
     private float starRate;//评分值
 
 
@@ -68,7 +71,7 @@ public class FloatRatingBar extends LinearLayout {
 
     /**
      * set the rate
-     * rate range in [0,5] including float number,such as 4.3
+     * rate range in [0.0,5.0] including float number,such as 4.3
      *
      * @param rate
      */
