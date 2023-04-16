@@ -8,4 +8,5 @@ Android原生的RatingBar不支持半颗星星，更别说0.1颗星星，而且�
 
 本控件只需要十几行代码即可实现，不需要重写onDraw函数，高度轻量级、可定制化。效果如下图：
 
-![avatar](https://github.com/devnns/FloatRatingBar/blob/master/ratingbar.png?raw=true)
+![image](https://user-images.githubusercontent.com/8786558/232288003-f1e06577-f606-4501-b9e4-2b3dc6eb944c.png)
+
